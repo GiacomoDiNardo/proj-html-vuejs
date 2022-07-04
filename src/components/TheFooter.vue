@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container pt-5">
     <div class="row gap-5">
         <div class="col col-3 me-5">
             <!-- logo + testo -->
