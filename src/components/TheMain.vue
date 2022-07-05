@@ -5,6 +5,8 @@
     <TipsSection></TipsSection>
     <PopularFeatures></PopularFeatures>
     <TestimonialsSection></TestimonialsSection>
+    <LatestPostSection></LatestPostSection>
+    <ContactsSection></ContactsSection>
   </div>
 </template>
 
@@ -14,8 +16,10 @@ import JumbotronContent from './JumbotronContent.vue';
 import TipsSection from './TipsSection.vue';
 import PopularFeatures from './PopularFeatures.vue';
 import TestimonialsSection from './TestimonialsSection.vue';
+import LatestPostSection from './LatestPostSection.vue';
+import ContactsSection from './ContactsSection.vue';
 export default {
-    components: { MarketingSection, JumbotronContent, TipsSection, PopularFeatures, TestimonialsSection }
+    components: { MarketingSection, JumbotronContent, TipsSection, PopularFeatures, TestimonialsSection, LatestPostSection, ContactsSection }
 }
 </script>
 
