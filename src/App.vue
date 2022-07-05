@@ -23,9 +23,11 @@ export default {
 
 <style lang="scss">
 @import "./assets/scss/main.scss";
+@import "./assets/scss/variables";
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'ABeeZee', sans-serif;
 }
 
 .container {
@@ -35,5 +37,17 @@ export default {
 a {
     color: black;
     text-decoration: none;
+}
+
+.text-grey {
+  color: $text-grey;
+}
+
+.text-primary {
+  color: $primary;
+}
+
+.border-grey {
+  border-color: $border-grey;
 }
 </style>

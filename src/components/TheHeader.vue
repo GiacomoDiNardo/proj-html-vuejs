@@ -17,7 +17,7 @@
                     <a href="#"><i class="fa-solid fa-cart-shopping position-relative"></i></a>
                 </div>
             </div>
-            <button class="btn btn-primary p-3">Get Started</button>
+            <button class="btn btn-primary">Get Started</button>
         </div>
     </div>
 
@@ -65,6 +65,12 @@ export default {
     }
     .fa-cart-shopping {
         z-index: 1;
+    }
+}
+
+.header-nav {
+    button {
+        padding: .5rem 1rem;
     }
 }
 </style>
