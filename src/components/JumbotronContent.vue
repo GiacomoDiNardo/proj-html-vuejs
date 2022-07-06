@@ -34,11 +34,12 @@ export default {
     width: 1100px;
     margin: auto;
     position: relative;
+    padding-top: 80px;
 
     .jumbo-img {
         width: 50%;
         position: absolute;
-        top: 20px;
+        top: 100px;
         right: 0;
     }
 }
