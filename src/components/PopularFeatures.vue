@@ -79,7 +79,7 @@ export default {
 .bg-img {
     top: 0;
     left: 0;
-    transform: translate(-80%, -10%);
+    transform: translate(-50%, -10%);
 
     img {
         width: 100%;

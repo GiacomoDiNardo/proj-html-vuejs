@@ -5,9 +5,9 @@
         <span class="text-grey pb-5 d-inline-block">If you are planning on developing a product landing app or website,<br> take a look at this beautiful-crafted</span>
     </div>
     
-    <div class="row justify-content-center">
-        <div class="col col-6">
-            <div class="card p-3 text-center">
+    <div class="row justify-content-center gap-5">
+        <div class="col">
+            <div class="card p-4 text-center">
                 <img class="m-auto my-4" src="/img/26.jpeg" alt="">
                 <h5>Julia Aann</h5>
                 <span class="text-grey pb-4">- COO Sofbox</span>
@@ -18,8 +18,8 @@
                 </p>
             </div>
         </div>
-        <div class="col col-6">
-            <div class="card p-3 text-center">
+        <div class="col">
+            <div class="card p-4 text-center">
                 <img class="m-auto my-4" src="/img/27.jpeg" alt="">
                 <h5>Mac Znder</h5>
                 <span class="text-grey pb-4">- Manager Sofbox</span>
@@ -43,7 +43,12 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/scss/variables";
 
+.col {
+    width: calc(100% / 2 - 3rem);
+}
 .card {
+    box-shadow: 0 0 30px $border-grey;
+    border-color: white;
     
     img {
         width: 70px;
